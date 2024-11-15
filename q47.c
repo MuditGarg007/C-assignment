@@ -19,6 +19,7 @@ int div(int a, int b){
 int main() {
     int a,b;
     char op;
+    printf("Enter expression: ");
     scanf("%d %c %d", &a, &op, &b);
 
     switch(op) {
