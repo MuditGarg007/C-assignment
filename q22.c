@@ -8,8 +8,9 @@ int fact(int n) {
 }
 
 int main() {
-    int n = 4;
-
+    int n;
+    printf("Enter number: ");
+    scanf("%d", &n);
     printf("%d", fact(n));
 
     return 0;
